@@ -36,8 +36,9 @@ body{
     padding-left: 40px;
 }
 
+
 .button{
-    padding: 5px 10px 5px 10px;
+    padding: 3px 8px 3px 8px;
     border: 1px solid lightgrey;
     border-radius: 10%;
     font-weight: bold;
@@ -49,4 +50,31 @@ body{
 
 .white-b{
     background-color: white;
+}
+
+.conteiner-text h1::before{
+    content:'\2714'
+}
+
+.conteiner-text{
+    margin-top: 30px;
+}
+
+.conteiner-text div{
+    display: inline-block;
+    margin-top: 5px;
+}
+.checkmark::before{
+    content:'\2714';
+}
+
+.checkmark{
+    font-size: 9px;
+    border: 1px solid;
+    color: #00C1A5;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    text-align: center;
 }
