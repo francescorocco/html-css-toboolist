@@ -6,6 +6,7 @@
 
 body{
     background-color: #3AA9FD;
+    font-family: 'Secular One', sans-serif;
 }
 
 #header-box{
@@ -36,11 +37,10 @@ body{
     padding-left: 40px;
 }
 
-
 .button{
     padding: 3px 8px 3px 8px;
     border: 1px solid lightgrey;
-    border-radius: 10%;
+    border-radius: 10px;
     font-weight: bold;
 }
 
@@ -60,24 +60,65 @@ body{
     margin-top: 30px;
 }
 
-.conteiner-text div{
-    display: inline-block;
-    margin-top: 5px;
+.conteiner-text h1{
+    margin-top: 15px;
 }
+
 .checkmark::before{
+    font-size: 8px;
+    padding: 1px 3px;
+    border: 1px solid;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+ul{
+    list-style-type: none;
+    margin-top: 8px;
+}
+
+li{
+    margin-top:10px;
+}
+
+.done::before{
+    color: #00C1A5;
     content:'\2714';
 }
 
-.checkmark{
-    font-size: 9px;
-    border: 1px solid;
-    border-radius: 50%;
-    width: 15px;
-    height: 15px;
-    display: inline-block;
-    text-align: center;
+.undone::before{
+    color:red;
+    content:'\2715'
 }
 
-.done{
-    color: #00C1A5;
+.description{
+    font-size: 10px;
+    border: 1px solid;
+    padding: 2px 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+.description.blu{
+    background-color: #38A9F3;
+}
+
+.description.violet{
+    background-color:#AB5DE4 ;
+}
+
+.description.green{
+    background-color:#2AC5AB;
+}
+
+.description.orange{
+    background-color:#F99A0E;
+}
+
+.description.peas-green{
+    background-color:#A1D021;
+}
+
+.description.pink{
+    background-color:#EB4A9B;
 }
