@@ -27,14 +27,14 @@ body{
 }
 
 .container {
-    height: 620px;
-    width: 894px;
+    width: 50%;
     background-color: white;
     margin: auto;
     margin-top: 50px;
     border-radius: 1%;
     padding-top: 10px;
     padding-left: 40px;
+    padding-bottom: 30px;
 }
 
 .button{
