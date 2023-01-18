@@ -2,9 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,43 +20,72 @@
     </header>
 
     <main>
-        <div class="container">
-            <section>
+        <div class="container-top">
+            <button class="blu-b button">Add Task</button>
+            <button class="white-b button">Add Section</button>
+        </div>
 
-                <button class="blu-b button">Add Task</button>
-                <button class="white-b button">Add Section</button>
-
-            </section>
-
-            <section>
-                <div class="conteiner-text ">
-                    <h1>New Task</h1>
-
+        <div class="container-bottom">
+            
+            <ul>
+                <li>
+                    <h1 class="list-title">New Task</h1>
                     <ul>
-                        <li class="done checkmark">Quarterly Newsletter <span class="description blu">Editorial</span></li>
+                        <li>
+                            <span class="checkmark done"></span>
+                            Quarterly Newsletter
+                            <span class="description blu">Editorial</span>
+                        </li>
                     </ul>
-                    <h1>Today</h1>
+                </li>
 
+                <li>
+                    <h1 class="list-title">Today</h1>
                     <ul>
-                        <li class="done checkmark">Recruiting blog post <span class="description blu">Editorial</span></li>
-                        <li class="done checkmark">Mobile app launch <span class="description violet">Q1 goals</span></li>
-                        <li class="undone checkmark">Interview John H. <span class="description green">Recruiting</span></li>
-                        <li class="done checkmark">Summit update to mobile storefronts <span class="description orange">Mobile</span></li>
+                        <li>
+                            <span class="checkmark done"></span>
+                            Recruiting blog post
+                            <span class="description blu">Editorial</span>
+                        </li>
+                        <li>
+                            <span class="checkmark done"></span>
+                            Mobile app launch
+                            <span class="description violet">Q1 goals</span>
+                        </li>
+                        <li>
+                            <span class="checkmark undone"></span>
+                            Interview John H.
+                            <span class="description green">Recruiting</span>
+                        </li>
+                        <li>
+                            <span class="checkmark done"></span>
+                            Summit update to mobile storefronts
+                            <span class="description orange">Mobile</span>
+                        </li>
                     </ul>
-                    <h1>Upcoming</h1>
+                </li>
 
+                <li>
+                    <h1 class="list-title">Upcoming</h1>
                     <ul>
-                        <li class="undone checkmark">Schedule meeting with Alex</li>
-                        <li class="done checkmark">Hompage refresh<span class="description pink">Website</span></li>
-                        <li class="done checkmark">Onboard new Sales team members <span class="description peas-green">Sales</span></li>
-                        <li class="done checkmark">Review editorial calendar <span class="description blu">Editorial</span></li>
+                        <li>
+                            <span class="checkmark undone"></span>
+                            Schedule meeting with Alex
+                        </li>
+                        <li>
+                            <span class="checkmark done"></span>
+                            Hompage refresh<span class="description pink">Website</span>
+                        </li>
+                        <li>
+                            <span class="checkmark done"></span>
+                            Onboard new Sales team members <span class="description peas-green">Sales</span>
+                        </li>
+                        <li>
+                            <span class="checkmark done"></span>
+                            Review editorial calendar <span class="description blu">Editorial</span>
+                        </li>
                     </ul>
-                </div>
-            </section>
-
+                </li>
+            </ul>
         </div>
     </main>
-
-</body>
-
-</html>

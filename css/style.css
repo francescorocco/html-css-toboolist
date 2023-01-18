@@ -6,7 +6,7 @@
 
 body{
     background-color: #3AA9FD;
-    font-family: 'Secular One', sans-serif;
+    font-family: Arial;
 }
 
 #header-box{
@@ -26,17 +26,6 @@ body{
     color: #051731;
 }
 
-.container {
-    width: 50%;
-    background-color: white;
-    margin: auto;
-    margin-top: 50px;
-    border-radius: 1%;
-    padding-top: 10px;
-    padding-left: 40px;
-    padding-bottom: 30px;
-}
-
 .button{
     padding: 3px 8px 3px 8px;
     border: 1px solid lightgrey;
@@ -52,51 +41,70 @@ body{
     background-color: white;
 }
 
-.conteiner-text h1::before{
-    content:'\2714'
+.container-top {
+    width: 50%;
+    background-color: white;
+    margin: 50px auto 5px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px 40px;
 }
 
-.conteiner-text{
-    margin-top: 30px;
+.container-bottom{
+    width: 50%;
+    background-color: white;
+    margin: auto;
+    padding: 15px 40px;
+    border-radius: 0px 0px 10px 10px ;
 }
 
-.conteiner-text h1{
-    margin-top: 15px;
-}
-
-.checkmark::before{
-    font-size: 8px;
-    padding: 1px 3px;
-    border: 1px solid;
-    border-radius: 50%;
-    margin-right: 5px;
-}
-
-ul{
+ul{ 
     list-style-type: none;
-    margin-top: 8px;
 }
 
 li{
-    margin-top:10px;
+    padding: 15px 0px;
+}
+
+.list-title::before{
+    content:'\2714';
+    margin-right: 10px;
+}
+
+.checkmark{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: solid 1px;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 10px;
+}
+
+.done{
+    color: #00C1A5;
+    border-color: #00C1A5;
 }
 
 .done::before{
-    color: #00C1A5;
     content:'\2714';
 }
 
-.undone::before{
+.undone{
     color:red;
+    border-color: red;
+}
+
+.undone::before{
     content:'\2715'
 }
 
 .description{
-    font-size: 10px;
-    border: 1px solid;
-    padding: 2px 5px;
-    border-radius: 10px;
+    font-size: 12px;
     color: white;
+    padding: 6px;
+    border-radius: 10px;
+    margin-left: 3px;
 }
 
 .description.blu{
